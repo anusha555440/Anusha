@@ -42,12 +42,12 @@ def main():
                 st.write(result_text)
                 
                 # Add a warning about medications
-                st.warning("*Note:* Medications suggested are optional. Please use cautiously and consult a healthcare professional before starting any new medication.")
+                st.warning("**Note:** Medications suggested are optional. Please use cautiously and consult a healthcare professional before starting any new medication.")
 
             except Exception as e:
                 st.error(f"Error generating response: {e}")
         else:
             st.error("Please enter symptoms to proceed.")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
