@@ -49,5 +49,5 @@ def main():
         else:
             st.error("Please enter symptoms to proceed.")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
